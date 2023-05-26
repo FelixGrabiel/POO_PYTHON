@@ -12,7 +12,7 @@ suma = 0
 signo = 1
 for i in range(1, n + 1):
     termino = signo * (2 * i - 1) * math.pow(a, math.pow(2, i - 1)) / (2 * i)
-    suma += round(termino)
+    suma +=termino
     signo *= -1
 
 print("La suma de los", n, "primeros términos de la serie es:", suma)
